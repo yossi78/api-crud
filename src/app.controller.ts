@@ -10,6 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
+  // THIS IS TEST CONTROLLER
   @Get('/test')
   getTest(): string {
     return 'test now !';
